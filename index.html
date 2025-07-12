@@ -1,0 +1,327 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/output.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Ikbal's Portfolio</title>
+  </head>
+<body class="bg-[#081C29] text-[#ededed] leading-[1.5]">
+    <!--Header area-->
+    <header class="fixed top-0 left-0 w-full px-4 py-3 md:px-[20px] md:py-[20px] bg-[#03172b] flex justify-between items-center z-100 animate-slideTop">
+        <div class="logo w-[110px] md:w-[150px] h-[30px] md:h-[50px] pr-[20px]">
+            <img src="assets/images/logo (2).png" class="w-full h-full object-cover"  alt="">
+        </div>
+
+        <nav class="main-nav">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <button id="menu-button" class="md:hidden text-white z-50">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-4 6h16"></path></svg>
+        </button>
+    </header>
+    <!--Header area-->
+
+    <!--Home area-->
+    <section class="home relative w-full flex flex-col md:flex-row justify-between items-center text-center md:text-left h-[100vh] bg-[#081c29] bg-no-repeat pt-[70px] px-4 md:px-[10%] pb-0 flex-wrap" id="home">
+        <div class="home-content max-w-full md:max-w-[37.5rem] font-semibold animate-slideRight">
+            <h3 class="text-3xl md:text-4xl font-bold animate-slideBottom 1s ease-forwards">Hello, It's Me</h3>
+            <h1 class="text-5xl md:text-[56px] font-bold ">Ikbal Hossain</h1>
+            <h3 class="text-2xl md:text-[32px] mb-[30px] inline-block">And I'm a <span class="text-[#0ef] typed-text"></span></h3>
+            <p class="text-lg md:text-[20px]">I'm a frontend web developer with extensive experience for over 2 years.
+                <br>My expertise is to create and design a website that is user-friendly and responsive. 
+            </p>
+            <div class="social-icons flex justify-center md:justify-start items-center mt-6 md:mt-8">
+                <a class="w-10 h-10 bg-transparent border-2 border-[#0ef] rounded-full inline-flex items-center justify-center text-xl text-[#0ef] mx-2 md:w-[40px] md:h-[40px] md:text-[20px] md:mx-[10px] hover:bg-[#0ef] hover:shadow-[0_0_20px_#0ef] transition-all" href="https://www.facebook.com/iqbal.hasan.017/" target="_blank"><i class="bx bxl-facebook hover:text-black"></i></a>
+                <a class="w-10 h-10 bg-transparent border-2 border-[#0ef] rounded-full inline-flex items-center justify-center text-xl text-[#0ef] mx-2 md:w-[40px] md:h-[40px] md:text-[20px] md:mx-[10px] hover:bg-[#0ef] hover:shadow-[0_0_20px_#0ef] transition-all" href="https://www.linkedin.com/in/ikbal-hossain-7684ab21b" target="_blank"><i class="bx bxl-linkedin hover:text-black"></i></a>
+                <a class="w-10 h-10 bg-transparent border-2 border-[#0ef] rounded-full inline-flex items-center justify-center text-xl text-[#0ef] mx-2 md:w-[40px] md:h-[40px] md:text-[20px] md:mx-[10px] hover:bg-[#0ef] hover:shadow-[0_0_20px_#0ef] transition-all" href="https://github.com/iqbal-hasan-developer" target="_blank"><i class="bx bxl-github hover:text-black"></i></a>
+                <a class="w-10 h-10 bg-transparent border-2 border-[#0ef] rounded-full inline-flex items-center justify-center text-xl text-[#0ef] mx-2 md:w-[40px] md:h-[40px] md:text-[20px] md:mx-[10px] hover:bg-[#0ef] hover:shadow-[0_0_20px_#0ef] transition-all" href="https://www.iqbalhasan01683@gmail.com" target="_blank"><i class='bx bxs-envelope hover:text-black'></i></a>
+            </div>
+            <a class="btn inline-block py-3 px-6 mt-6 md:mt-5 bg-[#0ef] rounded-4xl text-[#081b29] font-semibold shadow-[0_0_5px_#0ef,0_0_25px_#0ef] hover:shadow-[0_0_5px_cyan,0_0_25px_cyan,0_0_50px_cyan,0_0_100px_cyan,0_0_200px_cyan] transition-shadow duration-300" href="#">More About Me</a>
+        </div>
+
+        <div class="home-img mt-4 md:mt-0 md:ml-10 animate-slideLeft">
+            <img class="w-64 md:w-[450px] h-auto rounded-full shadow-[0_0_20px_#0ef]" src="/assets/images/my_pic.png" alt="Ikbal Hossain">
+        </div>
+    </section>
+    <!--Home area-->
+
+    <!-- About Section -->
+    <section id="about" class="py-32 md:py-20">
+        
+        <div class="about-container flex flex-col md:flex-row items-center justify-center gap-8 md:gap-10 px-4 md:px-[10%]">
+            <div class="about-img w-full md:w-1/2 flex  mt-[2rem] md:mt-0">
+                <img class="w-full max-w-sm md:max-w-md lg:max-w-md h-[300px] md:h-auto rounded-lg shadow-[0_0_20px_#0ef]" src="assets/images/about-img.png" alt="About Me Image">
+            </div>
+            <div class="about-text w-full md:w-1/2 text-center md:text-left">
+                <h2 class="text-4xl md:text-[56px] font-bold mb-3.5 md:mb-[35px]">About <span class="text-[#0ef]">Me</span></h2>
+                <h4 class="text-xl md:text-2xl font-bold mb-4 md:mb-8">Frontend Developer</h4>
+                <p class="text-base md:text-lg mb-6">I am a passionate frontend developer with a strong focus on creating responsive, user-friendly websites. I specialize in HTML, CSS, and JavaScript, bringing designs to life with clean and efficient code. My goal is to build engaging digital experiences that combine aesthetics with functionality. Always eager to learn and improve, I stay up to date with the latest web technologies to deliver modern and high-quality solutions</p>
+                <div class="">
+                    <a href="#" class="btn inline-block py-3 px-6 mt-4 md:mt-5 bg-[#0ef] rounded-4xl text-[#081b29] font-semibold shadow-[0_0_5px_#0ef,0_0_25px_#0ef] hover:shadow-[0_0_5px_cyan,0_0_25px_cyan,0_0_50px_cyan,0_0_100px_cyan,0_0_200px_cyan] transition-shadow duration-300">More About Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Section -->
+
+
+    <!-- Service Section -->
+      <section class="services py-20" id="services">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <h1 class="sub-title text-center text-5xl md:text-6xl font-bold pb-16">My <span class="text-[#0ef]">Services</span></h1>
+            <div class="services-list grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+
+                <div class="bg-transparent p-8 rounded-lg shadow-[0_0_20px_#0ef] transition-all duration-300 ease-in-out hover:bg-[#1c3e5f] hover:-translate-y-2">
+                    <i class="bx bx-code text-5xl mb-6 text-[#0ef]"></i>
+                    <h2 class="text-2xl font-bold mb-4">Frontend Web Development</h2>
+                    <p class="mb-6">I specialize in creating modern, responsive, and interactive websites using HTML, CSS, and JavaScript. Whether you need a landing page, business website, or portfolio, I ensure a clean design with smooth user experience and fast performance. Your website will be fully optimized for mobile, tablet, and desktop users.</p>
+                    <a href="#" class="btn inline-block py-3 px-6 bg-[#0ef] rounded-full text-[#081b29] font-semibold shadow-[0_0_5px_#0ef,0_0_25px_#0ef] hover:shadow-[0_0_5px_cyan,0_0_25px_cyan,0_0_50px_cyan,0_0_100px_cyan,0_0_200px_cyan] transition-shadow duration-300">Learn More</a>
+                </div>
+
+                <div class="bg-transparent p-8 rounded-lg shadow-[0_0_20px_#0ef] transition-all duration-300 ease-in-out hover:bg-[#1c3e5f] hover:-translate-y-2">
+                    <i class="bx bx-cart-add text-5xl mb-6 text-[#0ef]"></i>
+                    <h2 class="text-2xl font-bold mb-4">E-commerce Development</h2>
+                    <p class="mb-6">Looking to launch an online store? I can build a professional e-commerce website using WooCommerce (WordPress), Shopify, or custom solutions. From product page design to payment gateway integration, I ensure your store is fully functional, secure, and ready to convert visitors into customers.</p>
+                    <a href="#" class="btn inline-block py-3 px-6 bg-[#0ef] rounded-full text-[#081b29] font-semibold shadow-[0_0_5px_#0ef,0_0_25px_#0ef] hover:shadow-[0_0_5px_cyan,0_0_25px_cyan,0_0_50px_cyan,0_0_100px_cyan,0_0_200px_cyan] transition-shadow duration-300">Learn More</a>
+                </div>
+
+                <div class="bg-transparent p-8 rounded-lg shadow-[0_0_20px_#0ef] transition-all duration-300 ease-in-out hover:bg-[#1c3e5f] hover:-translate-y-2">
+                    <i class="bx bx-code-alt text-5xl mb-6 text-[#0ef]"></i>
+                    <h2 class="text-2xl font-bold mb-4">Full-Stack Web Development</h2>
+                    <p class="mb-6">Need a complete web application? I offer full-stack development, combining frontend and backend technologies to build dynamic and scalable web solutions. I work with Node.js, Express, MongoDB, and APIs to create secure, high-performing websites with user authentication, databases, and more.</p>
+                    <a href="#" class="btn inline-block py-3 px-6 bg-[#0ef] rounded-full text-[#081b29] font-semibold shadow-[0_0_5px_#0ef,0_0_25px_#0ef] hover:shadow-[0_0_5px_cyan,0_0_25px_cyan,0_0_50px_cyan,0_0_100px_cyan,0_0_200px_cyan] transition-shadow duration-300">Learn More</a>
+                </div>
+            </div>
+        </div>
+
+       
+      </section>
+     
+    <!-- Service Section -->
+
+    <!-- Skill Section -->
+      <section class="mt-2" id="skills">
+        <h1 class="text-center text-5xl md:text-6xl font-bold pb-10 mt-2.5">My <span class="text-[#0ef]">Skills</span></h1>
+
+        <div class="skill-wrapper flex flex-col md:flex-row items-start justify-center gap-8 px-4 md:px-10">
+            <!-- Technical Skills -->
+            <div class="container1 w-full md:w-1/2 p-6 shadow-[0_0_20px_#0ef] rounded-lg" id="technical-skills-container">
+                <h1 class="text-center underline decoration-cyan-300 underline-offset-8 mb-8 md:mb-12 text-2xl font-bold">Technical Skills</h1>
+                <div class="technical-bars space-y-5 md:pb-16">
+                    <div class="bar">
+                        <div class="info flex justify-between mb-1 items-center">
+                            <span class="text-lg font-medium flex items-center"><i class="bx bxl-html5 text-orange-600 mr-2 text-2xl"></i>HTML5</span>
+                            <span class="font-medium text-lg">95%</span>
+                        </div>
+                        <div class="progress-line">
+                            <span data-width="95%"></span>
+                        </div>
+                    </div>
+                    <div class="bar">
+                        <div class="info flex justify-between mb-1 items-center">
+                            <span class="text-lg font-medium flex items-center"><i class="bx bxl-css3 text-[#147bbc] mr-2 text-2xl"></i>CSS3</span>
+                            <span class="font-medium text-lg">90%</span>
+                        </div>
+                        <div class="progress-line">
+                            <span data-width="90%"></span>
+                        </div>
+                    </div>
+                    <div class="bar">
+                        <div class="info flex justify-between mb-1 items-center">
+                            <span class="text-lg font-medium flex items-center"><i class="bx bxl-javascript text-[#b0bc1e] mr-2 text-2xl"></i>JavaScript</span>
+                            <span class="font-medium text-lg">85%</span>
+                        </div>
+                        <div class="progress-line">
+                            <span data-width="85%"></span>
+                        </div>
+                    </div>
+                    <div class="bar">
+                        <div class="info flex justify-between mb-1 items-center">
+                            <span class="text-lg font-medium flex items-center"><i class="bx bxl-php text-[#c32ec9] mr-2 text-2xl"></i>PHP</span>
+                            <span class="font-medium text-lg">75%</span>
+                        </div>
+                        <div class="progress-line">
+                            <span data-width="75%"></span>
+                        </div>
+                    </div>
+                    <div class="bar">
+                        <div class="info flex justify-between mb-1 items-center">
+                            <span class="text-lg font-medium flex items-center"><i class="bx bxl-react text-[#69bcbc] mr-2 text-2xl"></i>React</span>
+                            <span class="font-medium text-lg">70%</span>
+                        </div>
+                        <div class="progress-line">
+                            <span data-width="70%"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Professional Skills -->
+            <div class="container1 w-full md:w-1/2 p-6 shadow-[0_0_20px_#0ef] rounded-lg" id="professional-skills-container">
+                <h1 class="text-center underline decoration-cyan-300 underline-offset-8 mb-8 text-2xl font-bold">Professional Skills</h1>
+                <div class="radial-bars grid grid-cols-2 gap-y-6 justify-items-center">
+                    <div class="radial-bar relative flex flex-col items-center justify-center w-36 h-44">
+                        <svg class="w-full h-full" x="0px" y="0px" viewBox="0 0 200 200">
+                            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                            <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                        </svg>
+                        <div class="percentage absolute text-xl font-bold">90%</div>
+                        <div class="text absolute bottom-4 text-lg font-medium">Creativity</div>
+                    </div>
+                    <div class="radial-bar relative flex flex-col items-center justify-center w-36 h-44">
+                        <svg class="w-full h-full" x="0px" y="0px" viewBox="0 0 200 200">
+                            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                            <circle class="path path-2" cx="100" cy="100" r="80"></circle>
+                        </svg>
+                        <div class="percentage absolute text-xl font-bold">85%</div>
+                        <div class="text absolute bottom-4 text-lg font-medium">Problem Solving</div>
+                    </div>
+                    <div class="radial-bar relative flex flex-col items-center justify-center w-36 h-44">
+                        <svg class="w-full h-full" x="0px" y="0px" viewBox="0 0 200 200">
+                            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                            <circle class="path path-3" cx="100" cy="100" r="80"></circle>
+                        </svg>
+                        <div class="percentage absolute text-xl font-bold">75%</div>
+                        <div class="text absolute bottom-4 text-lg font-medium">Communication</div>
+                    </div>
+                    <div class="radial-bar relative flex flex-col items-center justify-center w-36 h-44">
+                        <svg class="w-full h-full" x="0px" y="0px" viewBox="0 0 200 200">
+                            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                            <circle class="path path-4" cx="100" cy="100" r="80"></circle>
+                        </svg>
+                        <div class="percentage absolute text-xl font-bold">80%</div>
+                        <div class="text absolute bottom-4 text-lg font-medium">Teamwork</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+     <!-- Skill Section -->
+
+     <!-- portfolio Section -->
+    <section id="portfolio" class="mt-[100px]">
+        <h1 class="text-center text-5xl md:text-6xl font-bold mt-7 pb-16">Latest <span class="text-[#0ef]">Projects</span></h1>
+
+        <div class="portfolio-content grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-4 md:px-[10%]">
+
+            <div class="row group relative rounded-2xl cursor-pointer overflow-hidden shadow-[0_0_20px_#0ef]">
+                <img class="w-[100%] rounded-2xl block transition transform duration-500 group-hover:scale-110" src="assets/images/Grocerry.jpg" alt="">
+                <div class="layer w-[100%] h-0 absolute bg-[linear-gradient(rgba(0,0,0,0.1),_#0ef)] opacity-0 rounded-2xl left-0 bottom-0 overflow-hidden flex flex-col items-center text-center justify-center px-0 py-[40px] transition-all duration-500 ease-in-out group-hover:h-[100%] group-hover:opacity-80">
+                    <h5 class="text-[20px] text-[#000] font-semibold mb-[15px]">Grocerry Store</h5>
+                    <p class="text-[1rem] text-black leading-[150%]">A responsive grocery store website showcasing products and categories with a clean design and user-friendly interface.</p>
+                    <a class="bx bx-link-external underline text-red-600" href="#">Visit Demo</a>
+                </div>
+            </div>
+
+            <div class="row group relative rounded-2xl cursor-pointer overflow-hidden shadow-[0_0_20px_#0ef]">
+                <img class="w-[100%] rounded-2xl block transition transform duration-500 group-hover:scale-110" src="assets/images/Portfolio.jpg" alt="">
+                <div class="layer w-[100%] h-0 absolute bg-[linear-gradient(rgba(0,0,0,0.1),_#0ef)] opacity-0 rounded-2xl left-0 bottom-0 overflow-hidden flex flex-col items-center text-center justify-center px-0 py-[40px] transition-all duration-500 ease-in-out group-hover:h-[100%] group-hover:opacity-80">
+                    <h5 class="text-[20px] text-[#000] font-semibold mb-[15px]">Portfolio</h5>
+                    <p class="text-[1rem] text-black leading-[150%]">A personal portfolio website showcasing my skills, projects, and professional journey with a modern design and interactive elements.</p>
+                    <a class="bx bx-link-external underline text-red-600" href="#">Visit Demo</a>
+                </div>
+            </div>
+
+            <div class="row group relative rounded-2xl cursor-pointer overflow-hidden shadow-[0_0_20px_#0ef]">
+                <img class="w-[100%] rounded-2xl block transition transform duration-500 group-hover:scale-110" src="assets/images/Spline.jpg" alt="">
+                <div class="layer w-[100%] h-0 absolute bg-[linear-gradient(rgba(0,0,0,0.1),_#0ef)] opacity-0 rounded-2xl left-0 bottom-0 overflow-hidden flex flex-col items-center text-center justify-center px-0 py-[40px] transition-all duration-500 ease-in-out group-hover:h-[100%] group-hover:opacity-80">
+                    <h5 class="text-[20px] text-black font-semibold mb-[15px]">Spline</h5>
+                    <p class="text-[1rem] text-cyan-950 leading-[150%]">A creative 3D design project built using Spline, showcasing interactive and visually appealing elements for modern web experiences.</p>
+                    <a class="bx bx-link-external underline text-red-600" href="#">Visit Demo</a>
+                </div>
+            </div>
+
+            <div class="row group relative rounded-2xl cursor-pointer overflow-hidden shadow-[0_0_20px_#0ef]">
+                <img class="w-[100%] rounded-2xl block transition transform duration-500 group-hover:scale-110" src="assets/images/Mango.jpg" alt="">
+                <div class="layer w-[100%] h-0 absolute bg-[linear-gradient(rgba(0,0,0,0.1),_#0ef)] opacity-0 rounded-2xl left-0 bottom-0 overflow-hidden flex flex-col items-center text-center justify-center px-0 py-[40px] transition-all duration-500 ease-in-out group-hover:h-[100%] group-hover:opacity-80">
+                    <h5 class="text-[20px] text-black font-semibold mb-[15px]">Mango Store</h5>
+                    <p class="text-[1rem] text-[#000] leading-[150%]">An online mango store offering fresh, high-quality mangoes sourced directly from farms. Designed with a user-friendly interface for easy browsing and purchasing.</p>
+                    <a class="bx bx-link-external underline text-red-600" href="#">Visit Demo</a>
+                </div>
+            </div>
+
+            <div class="row group relative rounded-2xl cursor-pointer overflow-hidden shadow-[0_0_20px_#0ef]">
+                <img class="w-[100%] rounded-2xl block transition transform duration-500 group-hover:scale-110" src="assets/images/Dark Mode.jpg" alt="">
+                <div class="layer w-[100%] h-0 absolute bg-[linear-gradient(rgba(0,0,0,0.1),_#0ef)] opacity-0 rounded-2xl left-0 bottom-0 overflow-hidden flex flex-col items-center text-center justify-center px-0 py-[40px] transition-all duration-500 ease-in-out group-hover:h-[100%] group-hover:opacity-80">
+                    <h5 class="text-[20px] text-black font-semibold mb-[15px]">Dark Mode</h5>
+                    <p class="text-[1rem] text-[#000] leading-[150%]">A sleek and modern dark mode website designed to reduce eye strain and enhance user experience. Featuring a visually appealing interface with contrasting elements for better readability and accessibility.</p>
+                    <a class="bx bx-link-external underline text-red-600" href="#">Visit Demo</a>
+                </div>
+            </div>
+
+            <div class="row group relative rounded-2xl cursor-pointer overflow-hidden shadow-[0_0_20px_#0ef]">
+                <img class="w-[100%] rounded-2xl block transition transform duration-500 group-hover:scale-110" src="assets/images/joomla.jpg" alt="">
+                <div class="layer w-[100%] h-0 absolute bg-[linear-gradient(rgba(0,0,0,0.1),_#0ef)] opacity-0 rounded-2xl left-0 bottom-0 overflow-hidden flex flex-col items-center text-center justify-center px-0 py-[40px] transition-all duration-500 ease-in-out group-hover:h-[100%] group-hover:opacity-80">
+                    <h5 class="text-[20px] text-black font-semibold mb-[15px]">Joomla</h5>
+                    <p class="text-[1rem] text-[#000] leading-[150%]">A sleek and modern dark mode website designed to reduce eye strain and enhance user experience. Featuring a visually appealing interface with contrasting elements for better readability and accessibility.</p>
+                    <a class="bx bx-link-external underline text-red-600" href="#">Visit Demo</a>
+                </div>
+            </div>           
+        </div>
+    </section>
+     <!-- portfolio Section -->
+
+
+     <!-- Contact Section -->
+    <section class="contact py-20" id="contact">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <h1 class="sub-title text-center text-5xl md:text-6xl font-bold pb-16">Contact <span class="text-[#0ef]">Me</span></h1>
+            <div class="contact-content flex flex-col md:flex-row gap-10">
+                <div class="contact-text w-full md:w-1/2">
+                    <h2 class="text-3xl font-bold mb-4">Let's Connect</h2>
+                    <p class="mb-6">I'm currently available for freelance work and open to discussing new projects. If you have any questions or would like to collaborate, please feel free to reach out.</p>
+
+                    <div class="contact-list list-none py-2rem">
+                        <li class="text-2xl  mb-[10px]"><i class='bx bxs-send text-[#0ef] pr-2'></i>iqbalhasan01683@gmail.com</li>
+                        <li class="text-2xl"><i class='bx bxs-phone-call text-[#0ef] pr-2'></i>01683158940</li>
+                    </div>
+                    <div class="social-icons flex justify-center md:justify-start items-center mt-6 md:mt-8">
+                        <a class="w-10 h-10 bg-transparent border-2 border-[#0ef] rounded-full inline-flex items-center justify-center text-xl text-[#0ef] mx-2 md:w-[40px] md:h-[40px] md:text-[20px] md:mx-[10px] hover:bg-[#0ef] hover:shadow-[0_0_20px_#0ef] transition-all" href="https://www.facebook.com/iqbal.hasan.017/" target="_blank"><i class="bx bxl-facebook hover:text-black"></i></a>
+                        <a class="w-10 h-10 bg-transparent border-2 border-[#0ef] rounded-full inline-flex items-center justify-center text-xl text-[#0ef] mx-2 md:w-[40px] md:h-[40px] md:text-[20px] md:mx-[10px] hover:bg-[#0ef] hover:shadow-[0_0_20px_#0ef] transition-all" href="https://www.linkedin.com/in/ikbal-hossain-7684ab21b" target="_blank"><i class="bx bxl-linkedin hover:text-black"></i></a>
+                        <a class="w-10 h-10 bg-transparent border-2 border-[#0ef] rounded-full inline-flex items-center justify-center text-xl text-[#0ef] mx-2 md:w-[40px] md:h-[40px] md:text-[20px] md:mx-[10px] hover:bg-[#0ef] hover:shadow-[0_0_20px_#0ef] transition-all" href="https://github.com/iqbal-hasan-developer" target="_blank"><i class="bx bxl-github hover:text-black"></i></a>
+                        <a class="w-10 h-10 bg-transparent border-2 border-[#0ef] rounded-full inline-flex items-center justify-center text-xl text-[#0ef] mx-2 md:w-[40px] md:h-[40px] md:text-[20px] md:mx-[10px] hover:bg-[#0ef] hover:shadow-[0_0_20px_#0ef] transition-all" href="https://www.iqbalhasan01683@gmail.com" target="_blank"><i class='bx bxs-envelope hover:text-black'></i></a>
+                    </div>
+                </div>
+                <div class="contact-form w-full md:w-1/2">
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="33a41923-f5bd-4613-b3e8-3a365004482c">
+                        <div class="grid grid-cols-1 gap-6">
+                            <input type="text" name="name" placeholder="Your Name" required class="p-4 bg-[#1c3e5f] border border-[#0ef] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#0ef]">
+                            <input type="email" name="email" placeholder="Your Email" required class="p-4 bg-[#1c3e5f] border border-[#0ef] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#0ef]">
+                            <textarea name="message" placeholder="Your Message" rows="6" required class="p-4 bg-[#1c3e5f] border border-[#0ef] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#0ef]"></textarea>
+                        </div>
+                        <div class="mt-8 text-center">
+                            <button type="submit" class="btn inline-block py-3 px-8 bg-[#0ef] rounded-full text-[#081b29] font-semibold shadow-[0_0_5px_#0ef,0_0_25px_#0ef] hover:shadow-[0_0_5px_cyan,0_0_25px_cyan,0_0_50px_cyan,0_0_100px_cyan,0_0_200px_cyan] transition-shadow duration-300">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+     <!-- Contact Section -->
+
+     <div class="w-full flex justify-center">
+        <p class="w-full text-center px-6 py-5 bg-teal-900 font-light mt-16">&copy; 2025 Ikbal Hossain. All Rights Reserved.</p>
+  </div>
+
+
+    
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    
+
+    <script src="./assets/js/main.js"></script>
+
+    
+</body>
+</body>
+</html>
